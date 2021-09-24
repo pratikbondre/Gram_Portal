@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/ic_launcher"/>
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView"
+        android:background="@color/colorback"
+        android:ems="10"
+        android:hint="@string/Loginuser"
+        android:textAlignment="center"
+        android:textColor="@color/colortext"
+        android:textColorHint="@color/colortext"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorback"
+        android:textColor="@color/colortext"
+        android:ems="10"
+        android:hint="@string/LoginPassword"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="@color/colortext"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText3"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/button13"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Login"
+        android:layout_marginTop="30dp"
+        android:text="@string/textreg"
+        android:textAlignment="center"
+        android:textColor="@color/colortext"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

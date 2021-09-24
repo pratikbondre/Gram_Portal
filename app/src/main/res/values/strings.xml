@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Gram_Portal</string>
+    <string name="home_img">Gram_Portal</string>
+    <string name="button1">Login</string>
+    <string name="button2">Logout</string>
+    <string name="button3">Services</string>
+    <string name="button4">Flash_News</string>
+    <string name="button5">Committees</string>
+    <string name="button6">About Us</string>
+    <string name="button7">Help</string>
+    <string name="Title">National Grampanchayat Portal</string>
+    <string name="button8">Birth Register</string>
+    <string name="button9">Death Register</string>
+    <string name="button10">Certificates</string>
+    <string name="button11">Tenders</string>
+    <string name="button12">Taxes</string>
+    <string name="help">Question</string>
+    <string name="But1">Send</string>
+    <string name="Loginuser">User Id</string>
+    <string name="LoginPassword">Password</string>
+    <string name="button13">Login</string>
+    <string name="textreg">Register here</string>
+    <string name="textregname">Name</string>
+    <string name="textregUserId">UserId</string>
+    <string name="textregPass">Password</string>
+    <string name="textregconfpass">Confirm Password</string>
+    <string name="textregdate"> SelectDate</string>
+    <string name="textregf">Register</string>
+    <string name="textreg1">Already Register ? Login</string>
+    <string name="Abouttext">This is the app develop by pratik bondre and Harshal Kembari.
+    if you have any dought then you can contact me with email or phone. thank you for visiting our application.
+    </string>
+    <string name="Aboutemail">pratikbondre31@gmail.com</string>
+    <string name="Aboutno">+91 7875660678</string>
+    <string name="name">name</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="Email">Email</string>
+    <string name="Address">Address</string>
+    <string name="Phone">Phone No</string>
+    <string name="send">Send</string>
+    <string name="Hospitaladd">Hospital Address</string>
+    <string name="Date">Date of Birth</string>
+    <string name="Time">Time Of Birth</string>
+    <string name="action_settings">Settings</string>
+    <string name="Date1">Date of Death</string>
+    <string name="Time1">Time of Death</string>
+    <string name="fbid">827033974298787</string>
+    <string name="button30">Death Certificate</string>
+    <string name="button29">Birth Certificate</string>
+    <string name="ENTERSTRING">Enter your content...</string>
+    <string name="birthcetificate">BirthCetificate</string>
+    <string name="history">History</string>
+
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/home_img"
+        />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="384dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorback"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/textregUserId"
+        android:inputType="textPersonName"
+        android:textColor="@color/colortext"
+        android:textAlignment="center"
+        android:textColorHint="@color/colortext"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="384dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorback"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editText4"
+        android:hint="@string/textregPass"
+        android:textColor="@color/colortext"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="@color/colortext"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="384dp"
+        android:layout_height="50dp"
+        android:textColor="@color/colortext"
+        android:layout_below="@+id/editText5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorback"
+        android:hint="@string/textregconfpass"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="@color/colortext"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="244dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/textregf"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/colortext"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Register"
+        android:layout_marginBottom="30dp"
+        android:text="@string/textreg1"
+        android:textAlignment="center"
+        android:textColor="@color/colortext"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

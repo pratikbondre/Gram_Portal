@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gram_portal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".List_of_certificate"></activity>
+        <activity android:name=".ListOfCertificate" />
+        <activity android:name=".Taxes" />
+        <activity android:name=".Tenders" />
+        <activity android:name=".Flash_News" />
+        <activity android:name=".BirthRagister" />
+        <activity android:name=".Services" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".Help" />
+        <activity android:name=".DeathRegister" />
+        <activity android:name=".Commities" />
+        <activity android:name=".Certificates" />
+        <activity android:name=".about_us" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

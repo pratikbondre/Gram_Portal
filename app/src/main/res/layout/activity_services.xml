@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    tools:context=".Services">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="198dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        app:srcCompat="@drawable/ic_launcher"
+        android:contentDescription="@string/home_img" />
+
+
+    <Button
+        android:id="@+id/angry_btn8"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@id/imageView"
+        android:background="@drawable/buttonshape"
+        android:contentDescription="@string/button8"
+        android:shadowColor="#A8A8A8"
+        android:shadowRadius="5"
+        android:text="@string/button8"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/angry_btn9"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@id/angry_btn8"
+        android:background="@drawable/buttonshape"
+        android:contentDescription="@string/button9"
+        android:shadowColor="#A8A8A8"
+        android:shadowRadius="5"
+        android:text="@string/button9"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"  />
+
+    <Button
+        android:id="@+id/angry_btn10"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@id/angry_btn9"
+        android:background="@drawable/buttonshape"
+        android:contentDescription="@string/button9"
+        android:shadowColor="#A8A8A8"
+        android:shadowRadius="5"
+        android:text="@string/button10"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/angry_btn11"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@id/angry_btn10"
+        android:background="@drawable/buttonshape"
+        android:contentDescription="@string/button8"
+        android:shadowColor="#A8A8A8"
+        android:shadowRadius="5"
+        android:text="@string/button11"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"  />
+
+    <Button
+        android:id="@+id/angry_btn12"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/angry_btn11"
+        android:background="@drawable/buttonshape"
+        android:contentDescription="@string/button12"
+        android:shadowColor="#A8A8A8"
+        android:shadowRadius="5"
+        android:text="@string/button12"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"  />
+
+
+</RelativeLayout>
